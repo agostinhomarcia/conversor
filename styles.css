@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    line-height: 18px;
+    font-weight: normal;
+}
+
+body {
+    background: rgb(74,7,7);
+    background: radial-gradient(circle, rgba(74,7,7,1) 15%, #020000 100%);
+}
+.container {
+    width: 375px;
+    background-color: #1d1b1b;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+header {
+    background-color: #1B83E2;
+    height: 66px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #c5fb01;
+    padding-top: 24px;
+    text-align: center;
+}
+
+main {
+    padding: 24px;
+}
+
+label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+}
+
+select {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    width: 100%;
+    height: 48px;
+    display: block;
+    outline: none;
+    appearance: none;
+    padding-left: 16px;
+    box-shadow: 2px 2px 5px 0px #00000026;
+    margin-top: 6px;
+    margin-bottom: 24px;
+}
+
+input {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    width: 100%;
+    height: 48px;
+    display: block;
+    outline: none;
+    padding-left: 16px;
+    box-shadow: 2px 2px 5px 0px #00000026;
+    margin-top: 6px;
+    margin-bottom: 24px;
+}
+
+button {
+    background: #1B83E2;
+    border-radius: 25px;
+    height: 48px;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    color: #F4F4F4;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 36px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.7;
+}
+
+section {
+    border: 1px solid #236aac;
+    border-radius: 4px;
+}
+
+.currency-container {
+    text-align: center;
+    padding: 10px;
+}
+
+.currency-name {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+    margin-top: 5px;
+}
+
+.currency-value {
+    color: #1B83E2;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.arrow-img {
+    margin: 15px auto;
+    display: block;
+}
+
