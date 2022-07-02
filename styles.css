@@ -1,35 +1,36 @@
 * {
+    font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
     font-style: normal;
-    line-height: 18px;
     font-weight: normal;
+    line-height: 18px;
 }
 
 body {
-    background: rgb(74,7,7);
-    background: radial-gradient(circle, rgba(74,7,7,1) 15%, #020000 100%);
+    background: #721919;
 }
+
 .container {
     width: 375px;
-    background-color: #1d1b1b;
+    background-color: #f4f4f4;
+    margin-top: 100px;
     margin: 0 auto;
     margin-top: 100px;
 }
 
 header {
-    background-color: #1B83E2;
+    background: #1b83e2;
+    width: 375px;
     height: 66px;
 }
 
 h1 {
-    font-weight: 400;
     font-size: 24px;
-    color: #c5fb01;
-    padding-top: 24px;
+    color: #f4f4f4;
     text-align: center;
+    padding-top: 25px;
 }
 
 main {
@@ -37,53 +38,51 @@ main {
 }
 
 label {
-    font-weight: 400;
     font-size: 14px;
-    line-height: 18px;
     color: #777777;
 }
 
 select {
-    background: #FFFFFF;
-    border: 1px solid #BBBBBB;
+    background: #ffffff;
+    border: 1px solid #bbbbbb;
     border-radius: 4px;
-    width: 100%;
     height: 48px;
     display: block;
+    width: 100%;
+    cursor: pointer;
     outline: none;
     appearance: none;
     padding-left: 16px;
-    box-shadow: 2px 2px 5px 0px #00000026;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
     margin-top: 6px;
     margin-bottom: 24px;
 }
 
 input {
-    background: #FFFFFF;
-    border: 1px solid #BBBBBB;
+    background: #ffffff;
+    border: 1px solid #bbbbbb;
     border-radius: 4px;
-    width: 100%;
     height: 48px;
     display: block;
+    width: 100%;
     outline: none;
     padding-left: 16px;
-    box-shadow: 2px 2px 5px 0px #00000026;
-    margin-top: 6px;
-    margin-bottom: 24px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    font-size: 18px;
 }
 
 button {
-    background: #1B83E2;
+    background: #1b83e2;
     border-radius: 25px;
-    height: 48px;
     width: 100%;
-    cursor: pointer;
-    border: none;
-    color: #F4F4F4;
+    height: 48px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 18px;
+    color: #f4f4f4;
+    border: none;
+    margin-top: 24px;
     margin-bottom: 36px;
+    cursor: pointer;
 }
 
 button:hover {
@@ -95,7 +94,7 @@ button:active {
 }
 
 section {
-    border: 1px solid #236aac;
+    border: 1px solid #1b83e2;
     border-radius: 4px;
 }
 
@@ -105,21 +104,18 @@ section {
 }
 
 .currency-name {
-    font-weight: 400;
     font-size: 14px;
     line-height: 18px;
     color: #777777;
-    margin-top: 5px;
 }
 
 .currency-value {
-    color: #1B83E2;
     font-weight: 700;
     font-size: 20px;
+    color: #1b83e2;
 }
 
 .arrow-img {
     margin: 15px auto;
     display: block;
 }
-
