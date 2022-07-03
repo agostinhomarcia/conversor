@@ -10,27 +10,34 @@
 
 body {
     background: #721919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
     width: 375px;
     background-color: #f4f4f4;
-    margin-top: 100px;
-    margin: 0 auto;
-    margin-top: 100px;
+
+    
 }
+/* para alinhar o texto do h1 colocamos as propriedades no header que é o elemnto pai */
 
 header {
     background: #1b83e2;
     width: 375px;
     height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
     font-size: 24px;
     color: #f4f4f4;
-    text-align: center;
-    padding-top: 25px;
+    
+    
 }
 
 main {
@@ -96,11 +103,18 @@ button:active {
 section {
     border: 1px solid #1b83e2;
     border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 
 .currency-container {
-    text-align: center;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px
 }
 
 .currency-name {
@@ -115,7 +129,3 @@ section {
     color: #1b83e2;
 }
 
-.arrow-img {
-    margin: 15px auto;
-    display: block;
-}
